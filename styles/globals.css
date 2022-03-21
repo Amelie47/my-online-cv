@@ -1,3 +1,17 @@
+* {
+  --color-dark: #3b3c40;
+  --color-pink: #f24b59;
+  --color-pinky: #f27979;
+  --color-secondary: #f2a999;
+  --color-light: #f2e6ce;
+  --color-blue: #9ac3bd;
+}
+
+@font-face {
+  font-family: 'Red Hat';
+  src: url('../assets/fonts/Red_Hat_Text/RedHatText-Regular.ttf');
+}
+
 html,
 body {
   padding: 0;
@@ -13,4 +27,14 @@ a {
 
 * {
   box-sizing: border-box;
+}
+
+.noselect {
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Old versions of Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome, Edge, Opera and Firefox */
 }

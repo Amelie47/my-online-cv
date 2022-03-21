@@ -1,0 +1,26 @@
+[
+    {
+        "name": "Amélie Mouillac",
+        "url": "/"
+    },
+    {
+        "name": "Expériences",
+        "url": "/experiences"
+    },
+    {
+        "name": "Diplômes",
+        "url": "/diplomes"
+    },
+    {
+        "name": "Compétences",
+        "url": "/competences"
+    },
+    {
+        "name": "Personalité",
+        "url": "/personalite"
+    },
+    {
+        "name": "Valeurs",
+        "url": "/valeurs"
+    }
+]

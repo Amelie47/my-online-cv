@@ -8,3 +8,9 @@
   width: 80vw;
   margin-bottom: 300px;
 }
+
+@media (max-width: 600px) {
+  .content .contents {
+    margin-bottom: 150px;
+  }
+}

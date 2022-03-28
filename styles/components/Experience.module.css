@@ -1,0 +1,142 @@
+.experience {
+  display: flex;
+  margin-bottom: 50px;
+  padding-bottom: 50px;
+  border-bottom: 2px dashed var(--color-light);
+}
+
+.experience:last-child {
+  margin-bottom: 0;
+  padding-bottom: 0;
+  border: none;
+}
+
+.expYears {
+  width: 60px;
+  position: relative;
+}
+
+.expYearsContainer {
+  width: 160px;
+  height: 160px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-end;
+  transform: rotate(-90deg);
+  padding-right: 10px;
+}
+
+.expYears span {
+  width: fit-content;
+  padding: 0;
+  margin: 0;
+  font-family: 'Red Hat';
+  font-style: normal;
+  font-weight: 200;
+  font-size: 40px;
+  color: var(--color-dark);
+}
+
+.expContainer {
+  width: 100%;
+}
+
+.expHeader {
+  display: flex;
+  align-items: flex-end;
+}
+
+.expTitle {
+  margin: 0 20px 0 0;
+  font-size: 30px;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 40px;
+  color: var(--color-dark);
+}
+
+.expType {
+  margin: 0 20px 5px 0;
+  text-transform: lowercase;
+  font-size: 12px;
+}
+
+.expTechnos ul,
+.expRoles ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.expTechnos ul li {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 26px;
+  color: var(--color-dark);
+}
+
+.expTechnos ul li,
+.expRoles ul li {
+  list-style: none;
+  margin: 0 12px 0 0;
+  position: relative;
+}
+
+.explocalisation p {
+  font-style: italic;
+  font-size: 17px;
+}
+
+.expDescription p {
+  font-size: 17px;
+}
+
+.expRoles ul li {
+  color: var(--color-dark);
+  font-size: 17px;
+}
+
+.expRoles ul li:after {
+  content: '•';
+  position: absolute;
+  right: -9px;
+  top: 50%;
+  transform: translate(0, -50%);
+  color: var(--color-dark);
+}
+
+.expRoles ul li:last-child::after {
+  display: none;
+}
+
+@media (max-width: 600px) {
+  .experience,
+  .expHeader {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .experience {
+    margin-bottom: 20px;
+    padding-bottom: 30px;
+  }
+
+  .expType {
+    margin: 2vh 0;
+  }
+
+  .expRoles ul {
+    flex-direction: column;
+  }
+
+  .expRoles ul li:after {
+    display: none;
+  }
+
+  .expYearsContainer {
+    transform: none;
+    justify-content: flex-start;
+    height: fit-content;
+  }
+}

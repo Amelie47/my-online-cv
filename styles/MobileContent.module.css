@@ -1,0 +1,11 @@
+.content {
+  padding: 35px;
+  margin-bottom: 80px;
+}
+
+.content h1 {
+  text-transform: uppercase;
+  color: var(--color-dark);
+  margin-top: 0;
+  margin-bottom: 6vh;
+}

@@ -1,0 +1,79 @@
+{
+    "typesprojets": [
+        "Projet professionnel",
+        "Projet scolaire"
+    ],
+    "items": [
+        {
+            "id": "-",
+            "years": "2022",
+            "title": "Développeuse mobile",
+            "description": "Application mobile à destination du grand public pour rechercher des partenaires, les géolocaliser, et présenter le justificatif de la carte Clés Collèges aux partenaires. La charte graphique avait déjà été produite, j’ai réutilisé les couleurs et tout...",
+            "url": null,
+            "type": 0,
+            "technos": [
+                "flutter",
+                "github",
+                "flutterflow",
+                "mac",
+                "api"
+            ],
+            "localisation": "Chambéry (73)",
+            "etablissement": "Conseil Départemental de Savoie",
+            "roles": [
+                "Conception charte graphique",
+                "Benchmarking techno",
+                "Veille",
+                "Auto-formation",
+                "Conception des maquettes",
+                "Intégration des maquettes",
+                "Documentation API"
+            ]
+        },
+        {
+            "id": "-",
+            "years": "2022",
+            "title": "Etudiante",
+            "description": "Dans le cadre de mes études, j’ai fait des recherches sur l’innovation technologique dans le milieu associatif et le rôle des jeunes dans le processus d’innovation.",
+            "url": null,
+            "type": 1,
+            "technos": [
+                "indesign",
+                "photoshop"
+            ],
+            "localisation": "Annecy (74)",
+            "etablissement": "Ecole des Gobelins",
+            "roles": [
+                "Veille",
+                "Recherche",
+                "Synthétisation",
+                "Mise en forme",
+                "Conception produit Print",
+                "Rédaction",
+                "Présentation orale"
+            ]
+        },
+        {
+            "id": "-",
+            "years": "2021-22",
+            "title": "Développeuse web",
+            "description": "Réalisation d’un site web pour saisir des données chiffrées concernant les collèges du Département. Ces donnée ssont ensuite récupérés dans des rapports, édités et imprimés en PDF depuis l’application.",
+            "url": null,
+            "type": 0,
+            "technos": [
+                "laravel",
+                "bootstrap",
+                "excel",
+                "businessobject",
+                "SQLrequests"
+            ],
+            "localisation": "Chambéry (73)",
+            "etablissement": "Conseil Départemental de Savoie",
+            "roles": [
+                "Reprise de l'éxistant",
+                "Conception d'univers et de rapports BO",
+                "Mise en production"
+            ]
+        }
+    ]
+}
